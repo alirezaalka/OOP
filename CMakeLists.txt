@@ -3,4 +3,4 @@ project(OOP)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(OOP Session1_Ex1.cpp)
+add_executable(OOP Session1_Ex2.cpp)
