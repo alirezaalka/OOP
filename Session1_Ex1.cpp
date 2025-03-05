@@ -3,16 +3,16 @@
 using namespace std;
 
 class Person {
-private:
-    int age;
-    string name;
-public:
-    Person(string n = "Unknown") {
-        name = n;
-    }
-    string GetName() {
-        return name;
-    }
+    private:
+        int age;
+        string name;
+    public:
+        Person(string n = "Unknown") {
+            name = n;
+        }
+        string GetName() {
+            return name;
+        }
 };
 
 int main() {
